@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+//Kevin Gerardo Hinojosa Catellanos   A01411383  IMT
 package spp.khinojosac.t01.pkg3;
 import java.util.Scanner;
 /**
@@ -15,7 +16,8 @@ public class SPPKHinojosaCT013 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        Scanner teclado;
+        teclado = new Scanner(System.in);
         System.out.println("Calculadora de distancia entre dos puntos");
         
          //Variables.
