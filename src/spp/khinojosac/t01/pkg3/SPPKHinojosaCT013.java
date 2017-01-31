@@ -31,7 +31,7 @@ public class SPPKHinojosaCT013 {
          Y2 = teclado.nextDouble();
          
          //Operación Lógica.
-         oper = Math.sqrt(Math.pow((X2-X1),2)-Math.pow((Y2-Y1), 2));
+         oper = Math.sqrt(Math.pow((X2-X1),2)+Math.pow((Y2-Y1), 2));
          System.out.println("La distancia es de: " + oper);
          
         // TODO code application logic here
